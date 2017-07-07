@@ -28,7 +28,7 @@
     <SUITE FILE_PATH="coverage/test$Overriding_Methods.coverage" NAME="Overriding Methods Coverage Results" MODIFIED="1499234281553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$Problem___factorial.coverage" NAME="Problem - factorial Coverage Results" MODIFIED="1499243591012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$Overloading_Methods.coverage" NAME="Overloading Methods Coverage Results" MODIFIED="1499236079922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/test$Creating_Database_Table.coverage" NAME="Creating Database Table Coverage Results" MODIFIED="1499408976269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$Creating_Database_Table.coverage" NAME="Creating Database Table Coverage Results" MODIFIED="1499409462381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$Fabbonaci.coverage" NAME="Fabbonaci Coverage Results" MODIFIED="1499085139389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$Iterators.coverage" NAME="Iterators Coverage Results" MODIFIED="1499237975571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$Exception_handling.coverage" NAME="Exception handling Coverage Results" MODIFIED="1499166623836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -41,6 +41,7 @@
     <SUITE FILE_PATH="coverage/test$Problem___product_of_list.coverage" NAME="Problem - product of list Coverage Results" MODIFIED="1499241503186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$Reading_writing_files.coverage" NAME="Reading writing files Coverage Results" MODIFIED="1499162597850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$Regular_Expression.coverage" NAME="Regular Expression Coverage Results" MODIFIED="1499255346074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$CRUD_operations_on_database.coverage" NAME="CRUD operations on database Coverage Results" MODIFIED="1499410715126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$User_input.coverage" NAME="User input Coverage Results" MODIFIED="1499086897653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -84,9 +85,14 @@
       <file leaf-file-name="CRUD operations on database.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CRUD operations on database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="263">
+              <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding>
+                <marker date="1499410715096" expanded="true" signature="209:275" ph="INSERT INTO EMPLOYEES... " />
+                <marker date="1499410715096" expanded="true" signature="520:561" ph="SELECT * FRO... EMPLOYEES" />
+                <marker date="1499410715096" expanded="true" signature="894:950" ph="UPDATE EMPLO... " />
+                <marker date="1499410715096" expanded="true" signature="1190:1236" ph="DELETE FROM " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,26 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Creating Database Table">
-    <configuration default="false" name="Problem - Unique Values" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem - Unique Values.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.CRUD operations on database">
     <configuration default="false" name="Group List" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,6 +260,25 @@
       <module name="test" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Creating Database Table.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CRUD operations on database" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CRUD operations on database.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -427,19 +433,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Problem - Unique Values" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Group List" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Regular Expression" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Regular Expression - Finding and replacing" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Creating Database Table" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Group List" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Regular Expression" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Regular Expression - Finding and replacing" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Creating Database Table" />
+      <item index="4" class="java.lang.String" itemvalue="Python.CRUD operations on database" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Creating Database Table" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Regular Expression - Finding and replacing" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Regular Expression" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Group List" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Problem - Unique Values" />
+        <item index="0" class="java.lang.String" itemvalue="Python.CRUD operations on database" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Creating Database Table" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Regular Expression - Finding and replacing" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Regular Expression" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Group List" />
       </list>
     </recent_temporary>
   </component>
@@ -898,9 +904,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CRUD operations on database.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="263">
+          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <marker date="1499410715096" expanded="true" signature="209:275" ph="INSERT INTO EMPLOYEES... " />
+            <marker date="1499410715096" expanded="true" signature="520:561" ph="SELECT * FRO... EMPLOYEES" />
+            <marker date="1499410715096" expanded="true" signature="894:950" ph="UPDATE EMPLO... " />
+            <marker date="1499410715096" expanded="true" signature="1190:1236" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>
